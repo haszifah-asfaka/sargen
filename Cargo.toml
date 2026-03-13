@@ -1,0 +1,9 @@
+[package]
+name = "sargen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tiny_http = "0.12"
+clap = { version = "4", features = ["derive"] }
+get_if_addrs = "0.5"
